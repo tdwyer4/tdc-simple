@@ -1,0 +1,25 @@
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--font-space-mono);
+  margin: 0 0 0.75rem 0;
+}
+
+.desc {
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+@media (max-width: 900px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+}
