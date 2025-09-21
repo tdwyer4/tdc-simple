@@ -77,7 +77,6 @@ export default function MasonryGrid() {
           src={item.src}
           poster={item.poster}
           preload="none"
-          controls
           playsInline
           autoPlay={true}
           muted

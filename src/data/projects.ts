@@ -13,6 +13,14 @@ export type ProjectItem = {
 // Demo content using remote images/videos (you can replace with /public paths)
 export const projects: ProjectItem[] = [
   {
+    id: "vid-4",
+    type: "video",
+    src: "/videos/Munster-LA.mp4",
+    poster: "https://placehold.co/800x500/png",
+    title: "Munster",
+    description: "Short MP4 demo clip.",
+  },
+  {
     id: "img-1",
     type: "image",
     src: "/images/MJ-GoAT-Graphic.jpg",
@@ -86,7 +94,7 @@ export const projects: ProjectItem[] = [
   {
     id: "vid-2",
     type: "video",
-    src: "/videos/AmericanMade_WhiteBlue_02.mp4",
+    src: "/videos/AmericanMade_WhiteBlue.mp4",
     poster: "https://placehold.co/800x500/png",
     title: "American Made",
     description: "Short MP4 demo clip.",
