@@ -15,6 +15,14 @@ export const projects: ProjectItem[] = [
   {
     id: "vid-4",
     type: "video",
+    src: "/videos/VisitRedding.mp4",
+    poster: "https://placehold.co/800x500/png",
+    title: "Visit Redding",
+    description: "Short MP4 demo clip.",
+  },
+  {
+    id: "vid-5",
+    type: "video",
     src: "/videos/Munster-LA.mp4",
     poster: "https://placehold.co/800x500/png",
     title: "Munster",
@@ -56,6 +64,14 @@ export const projects: ProjectItem[] = [
     description: "Neon reflections downtown.",
   },
   {
+    id: "vid-6",
+    type: "video",
+    src: "/videos/ForgeFinancial.mp4",
+    poster: "https://placehold.co/800x500/png",
+    title: "Forge Financial",
+    description: "Short MP4 demo clip.",
+  },
+  {
     id: "img-4",
     type: "image",
     src: "/images/SGA-Graphic.jpg",
@@ -64,6 +80,7 @@ export const projects: ProjectItem[] = [
     title: "Forest Light",
     description: "Golden hour in the woods.",
   },
+
   {
     id: "img-5",
     type: "image",

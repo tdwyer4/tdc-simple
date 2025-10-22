@@ -98,14 +98,14 @@ export default function MasonryGrid() {
         </div>
       ))}
 
-      <Modal
+      {/* <Modal
         open={!!active}
         onClose={() => setActive(null)}
         title={active?.title || ""}
         description={active?.description || ""}
         thumb={active?.thumb}
         src={active?.src}
-      />
+      /> */}
     </div>
   );
 }
