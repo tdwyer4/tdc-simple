@@ -4,7 +4,8 @@
   z-index: 50;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  /* border-bottom: 1px solid rgba(255, 255, 255); */
+
 }
 
 .inner {
@@ -14,26 +15,29 @@
   gap: 1rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.75rem 1rem;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255);
 }
 
 .logo {
   font-family: var(--font-inter);
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .nav {
   display: flex;
-  gap: 1rem;
-  font-family: var(--font-space-mono);
-  text-transform: uppercase;
+  gap: 20px;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .link {
-  opacity: 0.8;
+  opacity: 1;
   transition: opacity 0.2s ease;
 }
 .link:hover {
-  opacity: 1;
+  opacity: 0.7;
+  cursor: crosshair
 }

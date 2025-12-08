@@ -1,0 +1,22 @@
+.titleBorder {
+    border-top: 1px solid rgb(255, 255, 255);
+    /* border-bottom: 1px solid white;
+    background: linear-gradient(to top, #ffffff, #333333, #cccccc, #777777, #333333, #cccccc, #777777, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #333333, #cccccc, #777777, #333333, #cccccc, #777777, #ffffff); */
+    color: white;
+}
+
+.titleWrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    border-top: 1px solid rgb(255, 255, 255);
+  max-width: 1200px;
+  padding: 12px 0px 12px 0px;
+  font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    letter-spacing: 0px;
+    color: white;
+}
