@@ -59,9 +59,9 @@ export default function MasonryGrid() {
             style={{ width: "100%", height: "auto" }}
             loading="lazy"
           />
-          <div className={styles.itemOverlay}>
+          {/* <div className={styles.itemOverlay}>
             <div className={styles.caption}>{item.title}</div>
-          </div>
+          </div> */}
         </a>
       );
     }
@@ -83,9 +83,9 @@ export default function MasonryGrid() {
           loop
           style={{ width: "100%", height: "auto", display: "block" }}
         />
-        <div className={styles.itemOverlay}>
+        {/* <div className={styles.itemOverlay}>
           <div className={styles.caption}>{item.title}</div>
-        </div>
+        </div> */}
       </a>
     );
   };
