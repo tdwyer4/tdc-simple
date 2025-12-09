@@ -1,69 +1,57 @@
+// data/selects.ts
+
 export type ProjectItem = {
   id: string;
-  type: "image" | "video";
-  src: string; // image src or video src
-  thumb?: string; // for modal
-  width?: number; // optional intrinsic width for images
-  height?: number; // optional intrinsic height for images
-  poster?: string; // for videos
   title: string;
   description: string;
+  thumbnail: string; // Used for the main grid
+  mainVideo: string; // The featured video in the modal
+  gallery: string[]; // Array of image URLs for the bottom of the modal
 };
 
-// Demo content using remote images/videos (you can replace with /public paths)
 export const projects: ProjectItem[] = [
- {
-    id: "img-1",
-    type: "image",
-    src: "/images/selects-thumbs/TD_Web_Project-Thumbnails-LIVEFIRE.webp",
-    width: 1600,
-    height: 1600,
+  {
+    id: "proj-1",
     title: "LiveFire Commercial Shoot",
-    description: "",
+    description:
+      "An intense look into the production of the LiveFire series. This project required precise timing and high-dynamic-range cinematography to capture the essence of the heat.",
+    thumbnail: "/images/selects-thumbs/TD_Web_Project-Thumbnails-LIVEFIRE.webp",
+    mainVideo:
+      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4", // Placeholder video
+    gallery: [
+      "https://placehold.co/800x600/1a1a1a/FFF?text=Set+Photo+1",
+      "https://placehold.co/800x600/1a1a1a/FFF?text=Set+Photo+2",
+      "https://placehold.co/800x600/1a1a1a/FFF?text=Set+Photo+3",
+    ],
   },
   {
-    id: "img-2",
-    type: "image",
-    src: "/images/selects-thumbs/TD_Web_Project-Thumbnails-ForgeFinancial.webp",
-    width: 1600,
-    height: 1600,
+    id: "proj-2",
     title: "Forge Financial Logo Animation",
-    description: "",
+    description:
+      "A sleek, motion-graphic heavy approach to modern finance branding. We utilized kinetic typography and smooth easing to represent trust and speed.",
+    thumbnail:
+      "/images/selects-thumbs/TD_Web_Project-Thumbnails-ForgeFinancial.webp",
+    mainVideo:
+      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    gallery: [
+      "https://placehold.co/800x600/1a1a1a/FFF?text=Styleframe+A",
+      "https://placehold.co/800x600/1a1a1a/FFF?text=Styleframe+B",
+    ],
   },
   {
-    id: "img-3",
-    type: "image",
-    src: "/images/selects-thumbs/TD_Web_Project-Thumbnails-GBB.webp",
-    width: 1600,
-    height: 1600,
+    id: "proj-3",
     title: "God Behind Bars Newspaper",
-    description: "",
+    description:
+      "A print and digital hybrid campaign designed to reach audiences in unconventional spaces.",
+    thumbnail: "/images/selects-thumbs/TD_Web_Project-Thumbnails-GBB.webp",
+    mainVideo:
+      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    gallery: [
+      "https://placehold.co/600x800/1a1a1a/FFF?text=Print+Layout",
+      "https://placehold.co/800x600/1a1a1a/FFF?text=Digital+Asset",
+      "https://placehold.co/800x600/1a1a1a/FFF?text=BTS",
+      "https://placehold.co/800x600/1a1a1a/FFF?text=Editorial",
+    ],
   },
-  {
-    id: "img-4",
-    type: "image",
-    src: "/images/selects-thumbs/TD_Web_Project-Thumbnails-LNBC.webp",
-    width: 1600,
-    height: 1600,
-    title: "Lake Norman Logo Animation",
-    description: "",
-  },
-  {
-    id: "img-5",
-    type: "image",
-    src: "/images/selects-thumbs/TD_Web_Project-Thumbnails-TC.webp",
-    width: 1600,
-    height: 1600,
-    title: "Transformation Church Series Bumper",
-    description: "",
-  },
-  {
-    id: "img-6",
-    type: "image",
-    src: "/images/selects-thumbs/TD_Web_Project-Thumbnails-EnergyOfND.webp",
-    width: 1600,
-    height: 1600,
-    title: "Energy f North Dakota TV Spot",
-    description: "",
-  },
+  // ... add remaining items with similar structure
 ];
