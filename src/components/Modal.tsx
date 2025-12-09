@@ -37,12 +37,8 @@ export default function Modal({ open, onClose, data }: Props) {
     >
       <div className={styles.scrollContainer}>
         <div className={styles.card} onClick={(e) => e.stopPropagation()}>
-          <div className={styles.header}>
-            <div className={styles.headerText}>
-              <h2 className={styles.title}>{data.title}</h2>
-              <p className={styles.desc}>{data.description}</p>
-            </div>
-            <button
+          <div className={styles.closeButtonContainer}>
+          <button
               className={styles.close}
               aria-label="Close"
               onClick={onClose}
@@ -58,6 +54,13 @@ export default function Modal({ open, onClose, data }: Props) {
                 <path d="M18 6L6 18M6 6l12 12" />
               </svg>
             </button>
+            </div>
+          <div className={styles.header}>
+            <div className={styles.headerText}>
+              <h2 className={styles.title}>{data.title}</h2>
+              <p className={styles.desc}>{data.description}</p>
+            </div>
+            
           </div>
 
           <div className={styles.body}>
