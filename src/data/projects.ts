@@ -57,7 +57,7 @@ export const projects: ProjectItem[] = [
   {
     id: "img-3",
     type: "image",
-    src: "https://res.cloudinary.com/dbafrgioq/image/upload/v1765304583/MOnstersoftheMidway-Graphic-FX_ksxfxh.jpg",
+    src: "https://res.cloudinary.com/dbafrgioq/image/upload/v1765488436/MonstersoftheMidway-Graphic_BETTER_alnigl.jpg",
     width: 1600,
     height: 1067,
     title: "City Night",
@@ -219,5 +219,14 @@ export const projects: ProjectItem[] = [
     poster: "https://placehold.co/800x500/black/333333?text=TD&font=open+sans",
     title: "",
     description: "Short MP4 demo clip.",
+  },
+  {
+    id: "img-8",
+    type: "image",
+    src: "https://res.cloudinary.com/dbafrgioq/image/upload/v1765508369/CalebWilliams-2_ngry1j.jpg",
+    width: 1600,
+    height: 1067,
+    title: "Waterfall",
+    description: "Mist and motion.",
   },
 ];
