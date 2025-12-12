@@ -1,16 +1,17 @@
 .wrap {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem;
-  display: grid;
+  padding: 16px 0;
+  display: grid
+  ;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 32px;
   align-items: center;
 }
 
 .title {
-  font-family: var(--font-space-mono);
-  margin: 0 0 0.75rem 0;
+  font-family: var(--font-inter);
+  margin: 0 0 12px 0;
 }
 
 .desc {

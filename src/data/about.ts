@@ -1,6 +1,6 @@
 export const about = {
-  image: "/images/me2023.png",
-  title: "About Me",
+  image: "https://res.cloudinary.com/dbafrgioq/image/upload/v1765304583/Me2023_zracil.png",
+  title: "Hey there, I'm Tim.",
   description:
-    "This is a simple responsive two-column layout. Swap this text and image with your own content. All typography and spacing adapt smoothly across desktop, tablet, and mobile.",
+    "As a highly skilled and detail-oriented visual designer, I thrive on turning ideas into a creative reality. With over fifteen years of experience in both the advertising and NPO industries, I've had the privilege of working across various mediums including full-throttle video edits, print design and interactive media. I'm driven by a deep passion for leading successful teams and achieving creative wins that benefit clients. Thanks for stopping by my corner of the internet. I’m really looking forward to working with you!",
 };

@@ -21,7 +21,7 @@ export default function AboutPage() {
               height: "auto",
               borderRadius: 0,
               border: "1px solid rgba(255,255,255,0.08)",
-              // filter: "grayscale(1)",
+              filter: "grayscale(1)",
             }}
             priority
           />

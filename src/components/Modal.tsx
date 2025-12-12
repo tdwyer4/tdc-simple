@@ -59,6 +59,7 @@ export default function Modal({ open, onClose, data }: Props) {
             <div className={styles.headerText}>
               <h2 className={styles.title}>{data.title}</h2>
               <p className={styles.desc}>{data.description}</p>
+              <p className={styles.roleTags}>{data.roleTags}</p>
             </div>
             
           </div>

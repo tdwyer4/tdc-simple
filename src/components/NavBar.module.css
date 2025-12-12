@@ -36,8 +36,10 @@
 .link {
   opacity: 1;
   transition: opacity 0.2s ease;
+  color: white;
 }
 .link:hover {
-  opacity: 0.7;
-  cursor: crosshair
+  opacity: 1;
+  cursor: crosshair;
+  color: var(--greenish);
 }

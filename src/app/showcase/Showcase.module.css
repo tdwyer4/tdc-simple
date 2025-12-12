@@ -1,7 +1,7 @@
 /* Showcase.module.css */
 
 .grid {
-  column-count: 3;
+  column-count: 4;
   column-gap: 16px; /* slightly more gap */
   max-width: 1200px;
   margin: 0 auto;
@@ -40,6 +40,7 @@
 /* Hover Effect: Scale Image */
 .itemInner:hover .thumbImage {
   transform: scale(1.05);
+  cursor: crosshair;
 }
 
 /* Overlay Styling */
@@ -57,6 +58,7 @@
   display: flex;
   align-items: flex-end;
   padding: 1.5rem;
+  cursor: crosshair;
 }
 
 .itemInner:hover .itemOverlay {
