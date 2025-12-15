@@ -25,6 +25,14 @@
   font-size: 16px;
 }
 
+.email {
+  font-family: var(--font-inter);
+  color: var(--greenish);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: crosshair;
+}
+
 .nav {
   display: flex;
   gap: 20px;
@@ -42,4 +50,10 @@
   opacity: 1;
   cursor: crosshair;
   color: var(--greenish);
+}
+
+.email:hover {
+  opacity: 1;
+  cursor: crosshair;
+  color: white;
 }

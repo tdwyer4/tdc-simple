@@ -14,8 +14,22 @@
 }
 
 .subtitle {
-  margin: 0;
+  margin: 0 0 10px 0;
   font-size: 16px;
   font-weight: 500;
   font-family: var(--font-inter);
+}
+
+.createdWith {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: white;
+}
+
+.heart {
+  color: var(--greenish);
+  font-size: 14px;
+  font-family: var(--font-space-mono);
 }

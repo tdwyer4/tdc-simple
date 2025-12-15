@@ -5,6 +5,7 @@ import styles from "./NavBar.module.css";
 
 export default function NavBar() {
   const logoText = "Tim Dwyer";
+  const emailText = "Say Hello!"
   return (
     <header className={styles.wrap}>
       <div className={styles.inner}>
@@ -21,9 +22,12 @@ export default function NavBar() {
           <Link className={styles.link} href="https://youtube.com/@timmydwyer" target="_blank">
             Tutorials
           </Link>
-          <Link className={styles.link} href="https://radloops.com" target="_blank">
+          <Link className={styles.link} href="https://www.radloops.com" target="_blank">
             Store
           </Link>
+          <div className={styles.email}>
+          <Link href="mailto:hello@timdwyer.co">{emailText}</Link>
+        </div>
         </nav>
       </div>
     </header>

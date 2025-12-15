@@ -15,6 +15,9 @@ export default function Home() {
           Motion Graphics / Graphic Design / Video Editing / UI-UX / Creative
           Direction
         </p>
+        <p className={styles.createdWith}>
+          This site was built with <span className={styles.heart}>&hearts;</span> using NextJS, TypeScript, CSS Modules and GSAP
+        </p>
       </section>
       <SectionTitle title="Selects" />
       <Showcase />

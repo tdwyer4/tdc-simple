@@ -1,17 +1,15 @@
-/* Showcase.module.css */
-
 .grid {
   column-count: 4;
-  column-gap: 16px; /* slightly more gap */
+  column-gap: 16px; 
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 0rem;
+  padding: 0 0 16px 0;
 }
 
 .item {
   break-inside: avoid;
   margin-bottom: 16px;
-  opacity: 0; /* Handled by GSAP */
+  opacity: 0; /* GSAP */
 }
 
 .itemInner {
@@ -25,7 +23,7 @@
 .imageWrapper {
   position: relative;
   width: 100%;
-  /* Fix for aspect ratio jumping if needed, or rely on next/image */
+  /* aspect ratio jumping */
   height: auto;
 }
 
@@ -37,13 +35,11 @@
   will-change: transform;
 }
 
-/* Hover Effect: Scale Image */
 .itemInner:hover .thumbImage {
   transform: scale(1.05);
   cursor: crosshair;
 }
 
-/* Overlay Styling */
 .itemOverlay {
   position: absolute;
   inset: 0;
@@ -84,7 +80,7 @@
   margin-bottom: 0.25rem;
   opacity: 0;
   transform: translateY(10px);
-  transition: all 0.3s 0.1s ease; /* Delay slightly */
+  transition: all 0.3s 0.1s ease;
 }
 
 .itemInner:hover .label {
@@ -100,7 +96,6 @@
   line-height: 1.2;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 1100px) {
   .grid {
     column-count: 2;

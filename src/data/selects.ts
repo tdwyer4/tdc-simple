@@ -16,7 +16,7 @@ export const projects: ProjectItem[] = [
     title: "LiveFire Commercial Shoot",
     description:
       "Sometimes you come across projects that are just plain ol’ fun. The LiveFire commercial shoot was exactly that. Approached with a very rough concept, I was asked to take full creative control from start to finish and make this whiteboard scratch session a reality. Starting with a storyboard and a scene-by-scene walkthrough, it was easy to get a clear vision of where we were headed. I brought in the incredibly talented team at Ghost Cat Creative to handle the filming and editing while I handled the creative direction, production, and design. Through a packed out shoot day we hit the indoor range and the beautiful LiveFire Studio. What came of this was not only a wildly cool video, but also a reminder for all of us that the work we get to do is a ton of fun.",
-    roleTags: "Creative Director, Producer, Talent and Contract scout, Motion Graphics, Graphic Design",
+    roleTags: "Creative Director, Producer, Talent and Contract Scout, Motion Graphics, Graphic Design",
       thumbnail: "https://res.cloudinary.com/dbafrgioq/image/upload/v1765304744/TD_Web_Project-Thumbnails-LIVEFIRE_jxcmdc.webp",
     mainVideo:
       "https://res.cloudinary.com/dbafrgioq/video/upload/v1765567573/LiveFire-WEB_jsvzvr.mp4",
