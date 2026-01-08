@@ -9,20 +9,21 @@ export default function Home() {
     <main>
       <section className={styles.hero}>
         <h1 className={styles.title}>
-          Visual Design Crafted in Tulsa, Oklahoma
+          Design That Moves Brands Forward
         </h1>
         <p className={styles.subtitle}>
-          Motion Graphics / Graphic Design / Video Editing / UI-UX / Creative
-          Direction
-        </p>
-        <p className={styles.createdWith}>
-          This site was built with <span className={styles.heart}>&hearts;</span> using NextJS, TypeScript, CSS Modules and GSAP
+          Elevating digital experiences through creative direction, design, and visual storytelling.
         </p>
       </section>
       <SectionTitle title="Selects" />
       <Showcase />
       <SectionTitle title="Favorites" />
       <MasonryGrid />
+      <section className={styles.hero}>
+        <p className={styles.createdWith}>
+          This site was made with <span className={styles.heart}>&hearts;</span> using NextJS, TypeScript, CSS and GSAP
+        </p>
+      </section>
     </main>
   );
 }

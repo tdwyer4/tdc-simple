@@ -12,11 +12,18 @@
 .title {
   font-family: var(--font-inter);
   margin: 0 0 12px 0;
+  font-weight: 200; 
+    letter-spacing: -1px;
+    color: rgb(0, 0, 0);
 }
 
 .desc {
   line-height: 1.7;
   opacity: 0.9;
+  font-weight: 300;
+    font-family: var(--font-inter);
+    letter-spacing: 0px;
+    color: rgb(0, 0, 0);
 }
 
 @media (max-width: 900px) {

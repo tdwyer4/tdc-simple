@@ -1,7 +1,7 @@
 :root {
-  --bg: #000;
+  --bg: #ffffff;
   --fg: #fff;
-  --greenish: rgb(171, 252, 170);
+  --greenish: rgb(0, 0, 0);
 }
 
 * {
